@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GetSmile — Стоматология на Рижской. Стоматология, в которой не боятся</title>
+  <meta name="description" content="GetSmile, м. Рижская. Лечим зубы, имплантаты Straumann, коронки и виниры e.max. Результат показываем на 3D-модели до начала работы. Запишитесь на бесплатный осмотр.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23F2B441'/%3E%3Cpath d='M16 6c-5 0-9 3.5-9 9 0 5 3 8 5 9 .8.4 1.8.2 2.2-.6l.8-1.8c.3-.8 1-.8 1.3 0l.8 1.8c.4.8 1.4 1 2.2.6 2-1 5-4 5-9 0-5.5-4-9-9-9z' fill='%23fff'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="GetSmile — на главную">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="7" fill="currentColor" class="brand-mark-bg"/>
+          <path d="M16 6c-5 0-9 3.5-9 9 0 5 3 8 5 9 .8.4 1.8.2 2.2-.6l.8-1.8c.3-.8 1-.8 1.3 0l.8 1.8c.4.8 1.4 1 2.2.6 2-1 5-4 5-9 0-5.5-4-9-9-9z" fill="#fff"/>
+        </svg>
+        <span class="brand-name">GetSmile</span>
+        <span class="brand-sub">Стоматология на Рижской</span>
+      </a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#work">Работы</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="header-cta" href="#book">Записаться</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- 1. HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">Стоматология, в которой <span class="beam-underline">не&nbsp;боятся</span></h1>
+          <p class="hero-sub">GetSmile, метро Рижская. Лечим зубы, ставим имплантаты Straumann, делаем коронки и виниры e.max. Перед тем как начать, показываем результат на 3D-модели.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#book">Записаться на бесплатный осмотр</a>
+            <a class="hero-phone" href="tel:+74956843796">или позвоните: <span class="tel">+7 (495) 684-37-96</span></a>
+          </div>
+          <ul class="fact-chips" aria-label="Ключевые факты">
+            <li><i data-lucide="badge-check"></i>Официальный партнёр Straumann</li>
+            <li><i data-lucide="scan"></i>3D-томография и сканер 3Shape Trios в клинике</li>
+            <li><i data-lucide="clock"></i>Ежедневно с 9:00 до 21:00</li>
+          </ul>
+        </div>
+        <div class="hero-figure" aria-hidden="true">
+          <svg viewBox="0 0 420 360" role="img" aria-label="Разрез зуба: свет проходит сквозь 3D-модель">
+            <defs>
+              <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#F2B441" stop-opacity="0"/>
+                <stop offset=".5" stop-color="#F2B441" stop-opacity=".85"/>
+                <stop offset="1" stop-color="#F2B441" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <!-- section cut line -->
+            <line x1="20" y1="300" x2="400" y2="300" stroke="#232A2E" stroke-width="1.5"/>
+            <line x1="20" y1="300" x2="20" y2="60" stroke="#232A2E" stroke-width="1.5"/>
+            <line x1="20" y1="60" x2="90" y2="60" stroke="#232A2E" stroke-width="1.5"/>
+            <!-- tooth cross section -->
+            <path class="tooth" d="M210 90c-52 0-92 34-92 84 0 42 26 72 46 84 9 5 20 2 25-7l10-24c3-8 12-8 15 0l10 24c5 9 16 12 25 7 20-12 46-42 46-84 0-50-40-84-92-84z" fill="none" stroke="#232A2E" stroke-width="2.5"/>
+            <path d="M150 174c0-38 26-64 60-64s60 26 60 64" fill="none" stroke="#8FA6B8" stroke-width="1.5" stroke-dasharray="4 4"/>
+            <!-- beam -->
+            <rect x="0" y="150" width="420" height="34" fill="url(#beam)"/>
+            <line x1="0" y1="167" x2="420" y2="167" stroke="#F2B441" stroke-width="1.5" stroke-dasharray="6 5"/>
+            <!-- annotations -->
+            <g class="anno" font-family="inherit" font-size="11" fill="#232A2E">
+              <line x1="118" y1="130" x2="60" y2="100" stroke="#232A2E" stroke-width="1"/>
+              <text x="20" y="96">эмаль — не трогаем, где можно</text>
+              <line x1="262" y1="200" x2="330" y2="228" stroke="#232A2E" stroke-width="1"/>
+              <text x="252" y="246">корень — томография до лечения</text>
+              <text x="150" y="330" fill="#B07C1E">DSD: результат виден до начала работы</text>
+            </g>
+            <!-- time ticks along the base, architectural section style -->
+            <g font-size="9" fill="#8FA6B8">
+              <line x1="90" y1="300" x2="90" y2="306" stroke="#8FA6B8"/>
+              <text x="86" y="318">09</text>
+              <line x1="150" y1="300" x2="150" y2="306" stroke="#8FA6B8"/>
+              <text x="146" y="318">12</text>
+              <line x1="210" y1="300" x2="210" y2="306" stroke="#8FA6B8"/>
+              <text x="206" y="318">15</text>
+              <line x1="270" y1="300" x2="270" y2="306" stroke="#8FA6B8"/>
+              <text x="266" y="318">18</text>
+              <line x1="330" y1="300" x2="330" y2="306" stroke="#8FA6B8"/>
+              <text x="326" y="318">21</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. УТП -->
+    <section class="section why" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <h2 class="section-title" id="why-title">Как мы работаем</h2>
+        <p class="section-lead">Мы не обещаем «улыбку за один визит». Мы делаем то, что нужно: лечим, ставим, протезируем. И перед тем как начать, показываем, как будет выглядеть результат.</p>
+        <ol class="why-list">
+          <li class="why-item">
+            <span class="why-mark">01</span>
+            <div>
+              <h3>Сначала — модель, потом — работа</h3>
+              <p>Коронки и виниры мы не ставим вслепую. Сначала делаем 3D-модель улыбки (DSD), вы видите результат заранее. Потом — начинаем.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <span class="why-mark">02</span>
+            <div>
+              <h3>Имплантаты Straumann, оригинальные</h3>
+              <p>Мы официальный партнёр компании. Имплантаты с гарантией и документами, без «аналогов по сходной цене».</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <span class="why-mark">03</span>
+            <div>
+              <h3>Бормашина — не всегда</h3>
+              <p>Ранний кариес лечим методом ICON, без сверления. Остальные случаи — обычная терапия, но каждый шаг врач объясняет.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <span class="why-mark">04</span>
+            <div>
+              <h3>Одна клиника, все специалисты</h3>
+              <p>3D-томография, сканер, хирург, терапевт, ортопед, ортодонт — в одном месте. Приходите один раз, уходите с полным планом лечения.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 3. УСЛУГИ -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <h2 class="section-title" id="services-title">Чем мы занимаемся</h2>
+        <p class="section-lead">От чистки и пломб до тотального протезирования. Ниже — основные направления, по каждой есть свой врач.</p>
+        <div class="service-grid">
+          <article class="service">
+            <h3>Терапевтическая стоматология</h3>
+            <ul>
+              <li>Лечение кариеса</li>
+              <li>Лечение пульпита и периодонтита</li>
+              <li>Перелечивание каналов (эндодонтия)</li>
+              <li>Лечение без бормашины (ICON)</li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Имплантация и костная пластика</h3>
+            <ul>
+              <li>Имплантаты Straumann</li>
+              <li>Синус-лифтинг (открытый и закрытый)</li>
+              <li>Костная пластика</li>
+              <li>Имплантация при полном отсутствии зубов</li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Эстетическая стоматология</h3>
+            <ul>
+              <li>Виниры e.max (от 0,3 мм)</li>
+              <li>Керамические коронки и вкладки</li>
+              <li>Цифровой дизайн улыбки (DSD)</li>
+              <li>Эстетическая реставрация композитом</li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Отбеливание и профгигиена</h3>
+            <ul>
+              <li>Профессиональная гигиена по протоколу Prophylaxis</li>
+              <li>Отбеливание ZOOM 4</li>
+              <li>Домашнее отбеливание (Opalescence, Zoom)</li>
+              <li>Реминерализация</li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Ортопедия (протезирование)</h3>
+            <ul>
+              <li>Циркониевые коронки</li>
+              <li>Протезирование на имплантатах</li>
+              <li>Бюгельные и съёмные протезы</li>
+              <li>Микропротезирование</li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Хирургия и пародонтология</h3>
+            <ul>
+              <li>Удаление зубов (в т.ч. ретенированных)</li>
+              <li>Резекция верхушки, цистэктомия</li>
+              <li>Пластика уздечки</li>
+              <li>Лечение заболеваний десны (протокол GBT)</li>
+            </ul>
+          </article>
+          <article class="service service-wide">
+            <h3>Ортодонтия</h3>
+            <ul>
+              <li>Брекеты</li>
+              <li>Съемные каппы (элайнеры)</li>
+              <li>Съемная ортодонтическая аппаратура</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. ЦЕНЫ -->
+    <section class="section prices" id="prices" aria-labelledby="prices-title">
+      <div class="container">
+        <h2 class="section-title" id="prices-title">Сколько стоит</h2>
+        <p class="section-lead">Цены ориентировочные. Точную стоимость врач называет после осмотра — обычно бесплатно.</p>
+        <div class="price-table-wrap" role="region" aria-label="Таблица цен" tabindex="0">
+          <table class="price-table">
+            <caption class="sr-only">Ориентировочные цены на основные услуги</caption>
+            <thead>
+              <tr><th scope="col">Услуга</th><th scope="col" class="num">От, руб.</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Консультация + осмотр</td><td class="num">0</td></tr>
+              <tr><td>Профессиональная гигиена</td><td class="num">5 000</td></tr>
+              <tr><td>Лечение кариеса (1 зуб)</td><td class="num">4 500</td></tr>
+              <tr><td>Лечение пульпита (1 зуб)</td><td class="num">8 000</td></tr>
+              <tr><td>Отбеливание ZOOM 4</td><td class="num">35 000</td></tr>
+              <tr class="price-row-accent"><td>Имплантат Straumann (под ключ)</td><td class="num">95 000</td></tr>
+              <tr><td>Коронка циркониевая</td><td class="num">25 000</td></tr>
+              <tr><td>Винир e.max</td><td class="num">30 000</td></tr>
+              <tr><td>Снятие кариеса без бормашины (ICON)</td><td class="num">6 000</td></tr>
+              <tr><td>Удаление зуба (простое)</td><td class="num">2 500</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="price-note">Синус-лифтинг, костная пластика и тотальное протезирование рассчитываются индивидуально. Напишите или позвоните — посчитаем за 15 минут.</p>
+      </div>
+    </section>
+
+    <!-- 5. РАБОТЫ -->
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <h2 class="section-title" id="work-title">Как выглядит результат</h2>
+        <p class="section-lead">Пациенты GetSmile. Фото — с сайта клиники.</p>
+        <div class="work-grid">
+          <article class="work-card">
+            <div class="work-photo" aria-label="Фото до/после: Дмитрий (заглушка DSC_2113)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <rect width="24" height="24" rx="4"/>
+                <path d="M3 15c3-4 6-4 9 0s6 4 9 0"/>
+                <circle cx="8" cy="8" r="2"/>
+              </svg>
+              <span class="photo-tag">до / после</span>
+              <span class="photo-ref">DSC_2113</span>
+            </div>
+            <h3>Дмитрий</h3>
+            <p>Синуслифтинг с обеих сторон, имплантаты Straumann, поднятие высоты прикуса коронками e.max. До: 3 отсутствующих зуба. После: 12 зубов на имплантатах и собственных зубах, улыбка без просветов.</p>
+          </article>
+          <article class="work-card">
+            <div class="work-photo" aria-label="Фото до/после: Анастасия (заглушка DSC_5890)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <rect width="24" height="24" rx="4"/>
+                <path d="M3 15c3-4 6-4 9 0s6 4 9 0"/>
+                <circle cx="8" cy="8" r="2"/>
+              </svg>
+              <span class="photo-tag">до / после</span>
+              <span class="photo-ref">DSC_5890</span>
+            </div>
+            <h3>Анастасия</h3>
+            <p>Эндодонтия, коррекция прикуса, имплантаты Straumann, коронки e.max по DSD-модели. До: кривые зубы, 2 отсутствующих. После: ровный ряд, 10 коронок, естественный цвет.</p>
+          </article>
+          <article class="work-card">
+            <div class="work-photo" aria-label="Фото до/после: Елена (заглушка DSC_3547)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <rect width="24" height="24" rx="4"/>
+                <path d="M3 15c3-4 6-4 9 0s6 4 9 0"/>
+                <circle cx="8" cy="8" r="2"/>
+              </svg>
+              <span class="photo-tag">до / после</span>
+              <span class="photo-ref">DSC_3547</span>
+            </div>
+            <h3>Елена</h3>
+            <p>Открытый синуслифтинг, имплантаты Straumann, коронки e.max. До: отсутствие 4 зубов верхней челюсти. После: 6 имплантатов + 4 коронки, жевает без ограничений.</p>
+          </article>
+          <article class="work-card">
+            <div class="work-photo" aria-label="Фото до/после: Светлана (заглушка DSC_1217)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <rect width="24" height="24" rx="4"/>
+                <path d="M3 15c3-4 6-4 9 0s6 4 9 0"/>
+                <circle cx="8" cy="8" r="2"/>
+              </svg>
+              <span class="photo-tag">до / после</span>
+              <span class="photo-ref">DSC_1217</span>
+            </div>
+            <h3>Светлана</h3>
+            <p>Удаление зубов верхней челюсти, синуслифтинг, имплантаты Straumann, коронки и накладки e.max. До: 5 отсутствующих зубов. После: полная челюсть, DSD-модель реализована один в один.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. ОТЗЫВЫ -->
+    <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <h2 class="section-title" id="reviews-title">Что говорят пациенты</h2>
+        <p class="section-lead">Отзывы с сайта клиники.</p>
+        <div class="review-grid">
+          <figure class="review-card">
+            <blockquote>«Потрясающий стоматолог — Дарья Майтус! Профессионал своего дела, с которым нестрашно лечить зубы.»</blockquote>
+            <figcaption>
+              <span class="review-name">Анастасия</span>
+              <span class="review-src">Яндекс.Карты</span>
+            </figcaption>
+          </figure>
+          <figure class="review-card review-placeholder">
+            <p>Здесь появится ещё один реальный отзыв — с Яндекс.Карт или Google Maps.</p>
+            <figcaption>
+              <span class="review-name">—</span>
+              <span class="review-src">скоро</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. КОНТАКТЫ + ЗАПИСЬ -->
+    <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="container contacts-grid">
+        <div class="contacts-info">
+          <h2 class="section-title" id="contacts-title">Как нас найти</h2>
+          <ul class="contact-list">
+            <li><i data-lucide="map-pin"></i>м. Рижская<br>ул. Проспект Мира, 79, пом. 1</li>
+            <li><i data-lucide="phone"></i><a href="tel:+74956843796">+7 (495) 684-37-96</a><br><a href="tel:+79996757576">+7 (999) 675-75-76</a></li>
+            <li><i data-lucide="mail"></i><a href="mailto:getsmileru@gmail.com">getsmileru@gmail.com</a></li>
+            <li><i data-lucide="clock"></i>9:00–21:00, ежедневно</li>
+          </ul>
+          <form class="book-form" id="book" novalidate>
+            <h3>Записаться на бесплатный осмотр</h3>
+            <label>
+              <span>Ваше имя</span>
+              <input type="text" name="name" required autocomplete="name" placeholder="Как к вам обращаться">
+            </label>
+            <label>
+              <span>Телефон</span>
+              <input type="tel" name="phone" required autocomplete="tel" placeholder="+7 (___) ___-__-__">
+            </label>
+            <button class="btn btn-primary" type="submit">Записаться</button>
+            <p class="form-note">Перезвоним в рабочее время, подберём удобный день.</p>
+            <p class="form-success" role="status" hidden>Спасибо! Мы перезвоним в ближайшее время.</p>
+          </form>
+        </div>
+        <div class="map-block">
+          <iframe
+            class="map"
+            title="Карта: GetSmile, ул. Проспект Мира, 79, пом. 1"
+            src="https://yandex.ru/map-widget/v1/?ll=37.630491%2C55.791648&z=16&pt=37.630491,55.791648,pm2rdm"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+          <p class="map-fallback"><a href="https://yandex.ru/maps/?text=Москва, Проспект Мира, 79" target="_blank" rel="noopener">Открыть в Яндекс.Картах</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. ДОКУМЕНТЫ -->
+    <section class="section docs" id="docs" aria-labelledby="docs-title">
+      <div class="container">
+        <h2 class="section-title" id="docs-title">Документы</h2>
+        <p class="section-lead">Юридическая информация.</p>
+        <ul class="docs-list">
+          <li><a href="https://getsmile.art/documents" target="_blank" rel="noopener">Лицензия на медицинскую деятельность <i data-lucide="external-link"></i></a></li>
+          <li><a href="https://getsmile.art/documents" target="_blank" rel="noopener">Юридическая информация (ООО «Стоматология на Рижской+») <i data-lucide="external-link"></i></a></li>
+          <li><a href="https://getsmile.art/privacy" target="_blank" rel="noopener">Политика конфиденциальности <i data-lucide="external-link"></i></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">GetSmile</span>
+        <span>Стоматология на Рижской</span>
+      </div>
+      <div class="footer-col">
+        <p>ООО «Стоматология на Рижской+»<br>м. Рижская, ул. Проспект Мира, 79, пом. 1</p>
+        <p><a href="tel:+74956843796">+7 (495) 684-37-96</a> · 9:00–21:00 · <a href="mailto:getsmileru@gmail.com">getsmileru@gmail.com</a></p>
+      </div>
+      <div class="footer-col">
+        <a href="https://getsmile.art/documents" target="_blank" rel="noopener">Лицензия на медицинскую деятельность</a>
+        <a href="https://getsmile.art/privacy" target="_blank" rel="noopener">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
